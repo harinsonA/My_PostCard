@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
+body{
+    font-family: 'Handlee', cursive;
+    font-size: 18px;
+    background: #000;
+}
+input{
+    font-size: 18px;
+    font-family: 'Handlee', cursive;
+}
+h1{
+    font-size: 35px;
+}
+.postcard{
+    width: 500px;
+    height: 350px;
+    background: #fff;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+}
+.postcard-header{
+    overflow: hidden;
+}
+.postcard-body{    
+    overflow: hidden;
+}
+.postcard-header img{
+    max-width: 60px;
+    float: right;
+}
+.postcard-footer{
+    padding: 10px;
+    text-align: center;
+}
+.postcard-footer input[type=submit]{
+    background: gray;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.postcard-body input[type=text],
+.postcard-body input[type=email]{
+    width: 240px;
+    background: #ffffff;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.postcard h1{
+    margin: 0;
+}
+.letf-part{
+    float: left;
+    width: 50%;
+}
+.right-part{
+    float: right;
+    width: 50%;
+}
+.right-part input{
+    display: block;
+}
